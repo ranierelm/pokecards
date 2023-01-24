@@ -36,7 +36,7 @@ export default function Home({ pokemons }) {
           src={"/images/pokeball.png"}
           height="50"
           width="50"
-          alt="PokeNext" />
+          alt="PokeCards" />
 
       </div>
 

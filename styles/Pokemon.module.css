@@ -21,13 +21,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1.5em;
 }
 
 .type {
     padding: .6em 1em;
-    background-color: #000;
+    background-color: #ccc;
     color: #FFF;
     margin-right: .5em;
+    margin-bottom: 0.5em;
     border: 1px solid #CCC;
     border-radius: 6px;
     text-transform: uppercase;
@@ -114,7 +116,7 @@
 }
 
 .data_container div {
-    margin: 1em 0;
+    /* margin: 1em 0; */
     padding: 0 1em;
     align-items: center;
     justify-content: center;

@@ -14,10 +14,10 @@ export default function Navbar() {
                         src={"/images/pokeball.png"}
                         width="30"
                         height="30"
-                        alt="PokeNext"
+                        alt="PokeCards"
                     />
 
-                    <h1>PokeNext</h1>
+                    <h1>PokeCards</h1>
                 </div>
             </Link>
             <ul className={styles.link_items}>

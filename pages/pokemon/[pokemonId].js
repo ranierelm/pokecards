@@ -70,6 +70,24 @@ export default function Pokemon({ pokemon }) {
 
             </div>
 
+            <div >
+                <h3>Habilidades:</h3>
+
+                <div className={styles.types_container}>
+                    <p>{pokemon.abilities.map((item, index) => (
+                        <span
+                            key={index}
+                            className={`${styles.type}`}
+                        >
+                            {item.ability.name}
+                        </span>
+                    ))}
+                    </p>
+                </div>
+
+            </div>
+
+
             <div className={styles.data_container}>
                 <div className={styles.data_height}>
                     <h4>Altura:</h4>
@@ -81,6 +99,8 @@ export default function Pokemon({ pokemon }) {
                     <p>{pokemon.weight / 10} kg</p>
                 </div>
             </div>
+
+
 
 
         </div>
