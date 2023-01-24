@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    height: 150px;
+    margin-top: 2em;
+    border-top: 3px solid #111;
+    color: #FFF;
+    flex-direction: column;
+}
+
+.footer span {
+    font-weight: bold;
+}
+
+.footer .author {
+    margin-top: .2em;
+    font-size: 0.9em;
+}
